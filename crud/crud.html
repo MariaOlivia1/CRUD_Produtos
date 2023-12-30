@@ -191,7 +191,7 @@
             console.log("ID do produto:", id);
 
             try {
-                const response = await fetch(`http://localhost:3000/produtos/${id}`);
+                const response = await fetch(`http://localhost:3000/produtoPorId/${id}`);
 
                 if (!response.ok) {
                     throw new Error(`Erro ao obter detalhes do produto (Status: ${response.status})`);

@@ -1,6 +1,6 @@
 import { Request, Response } from "express";
 import {Router} from "express"
-import { atualizarProdutoController, criarProdutoController, deletarProdutoController, listarProdutoPorIdController, listarProdutoPorNomeController, listarProdutosController } from "../modules/produtos";
+import { atualizarProdutoController, criarProdutoController, deletarProdutoController, listarProdutoPorIdController, listarProdutoPorNomeController, listarProdutosController } from "../modules/produto";
 
 const routes = Router()
 
